@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 7: Navigation Menu</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        body {
+            padding: 20px;
+        }
+
+        .container {
+            border: 1px solid #000;
+            padding-bottom: 50px;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .header {
+            display: block;
+            background-color: #d3d3d3;
+            text-align: center;
+            padding: 15px;
+            border-bottom: 1px solid #aaa;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            display: inline;
+            color: red;
+            font-weight: bold;
+        }
+
+        .float-menu a {
+            float: left;
+            display: block;
+            background-color: #add8e6;
+            border: 1px solid #0000ff;
+            color: #000;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin-right: 5px;
+            margin-left: 5px;
+            font-size: 14px;
+        }
+
+        .clearfix {
+            clear: both;
+            height: 10px;
+        }
+
+        .inline-block-menu {
+            margin-top: 10px;
+            padding-left: 5px;
+        }
+
+        .inline-block-menu a {
+            display: inline-block;
+            background-color: #90ee90;
+            border: 1px solid #008000;
+            color: #000;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin-right: 2px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="header">
+            My <span class="highlight">Website</span> Navigation
+        </div>
+
+        <div class="float-menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="inline-block-menu">
+            <a href="#">Dashboard</a>
+            <a href="#">Profile</a>
+            <a href="#">Messages</a>
+            <a href="#">Logout</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
